@@ -14,7 +14,6 @@
 }
 .navber-continure{
     max-width: 1200px;
-    border: 1px solid red;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -53,7 +52,6 @@ h2{
 }
 .continure{
     max-width: 1200px;
-    border: 1px solid red;
     margin: 0 auto;
     display: flex;
     gap: 4%;
@@ -64,7 +62,6 @@ h2{
 .hero-text{
     width: 48%;
     color: white;
-    border: 1px solid green;
     align-content: center;
     text-align: center;
 }
@@ -101,14 +98,11 @@ span{
     background-color: transparent;
     border: 1px solid white;
 }
-.hero-image{
-    border: 1px solid green;
-}
+
 .hero-img-btn{
     background: #000;
     color: white;
     width: 200px;
-    border: 1px solid green;
     border-radius: 10px;
 }
 
@@ -116,7 +110,7 @@ span{
 .imge{
     
     width: 48%;
-    border: 1px solid green;
+    
     position: relative;
     font-family: Arial;
   }
@@ -170,11 +164,11 @@ h3{
     max-width: 1200px;
     margin: 0 auto;
    text-align: center;
-    border: 1px solid red;
+  
 }
 .continure-4img{
     max-width: 1200px;
-    border: 1px solid red;
+  
     margin: 0 auto;
     display: flex;
     gap: 10px;
@@ -198,7 +192,7 @@ h4{
 .hero-run{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+ 
     background-color: #302f2f;
     border-radius: 20px;
     display: flex;
@@ -212,7 +206,7 @@ h4{
 .hero-run-image{
     width: 50%;
     padding: 25px;
-    border: 1px solid green;
+    
     
 }
 .hero-run-image img{
@@ -234,7 +228,7 @@ table, th, td {
     margin: 10px;
 }
 .BMI-form{
-    border: 1px solid red;
+    
     margin: 10px;
 }
 
@@ -278,7 +272,7 @@ table, th, td {
 .box1 img {
     
     max-width: 100%;
-    border: 1px solid green;
+   
     border-radius: 20px;
 }
 
