@@ -1,0 +1,110 @@
+@media screen and (max-width:800px ) {
+ 
+    .navber-continure{
+        flex-direction: row;
+        align-items: center;
+    }
+    .header-manu{
+        margin-top: 20px;
+    }
+    .continure{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-text{
+        width: 100%;
+       color: white;
+       border: 1px solid green;
+       align-content: center;
+       text-align: start;
+       }
+   .imge{
+    width: 50%;
+    margin: 0 auto;
+   }
+    .text-block{
+        position: absolute;
+        top:20px;
+        right: -100px;
+        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+        border: 1px solid #FFFFFF1A;    color: white;
+        padding: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-block-2{
+        bottom: 90px;
+        left: -10px;
+        position: absolute;
+        display: flex;
+        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+        border: 1px solid #FFFFFF1A;    color: white;
+        padding: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+@media screen and (max-width:500px ) {
+   .navber-continure{
+    flex-direction: row;
+   }
+   
+    .nav-hamburger-manu{
+        display:block;
+    }
+    .navber-manu{
+        display: none;
+ 
+    }
+    .hero-text{
+     width: 100%;
+    color: white;
+    border: 1px solid green;
+    align-content: center;
+    text-align: start;
+    }
+    .continure{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imge{
+        width: 100%;
+    }
+    .text-block{
+        position: absolute;
+        top:20px;
+        right: 40px;
+        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+        border: 1px solid #FFFFFF1A;    color: white;
+        padding: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-block-2{
+        bottom: 190px;
+        left: 20px;
+        position: absolute;
+        display: flex;
+        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+        border: 1px solid #FFFFFF1A;    color: white;
+        padding: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+.main-continure-text{
+    width: 100%;
+    flex-direction: row;
+
+}
+.continure-4img{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+}

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Inter:wght@100..900&family=Michroma&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+/* nav continure here  */
+.navber-main{
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+ background-color: #111111c5;
+}
+.navber-continure{
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding:20px ; */
+    
+}
+h2{
+    
+    color: #E6533C;
+   
+    }
+    .navber-manu{
+        border: 1px solid rgba(0, 0, 0, 0.226);
+        border-radius: 50px;
+        margin-right: 5px;
+     
+    }
+    .manu-btn{
+        /* width: 150px;
+        height: 50px; */
+        padding: 5px;
+        margin: 5px;
+        color: white;
+        background-color: transparent;
+        border-radius:20px;
+        border: none;  
+         font-size: large;
+        
+    }
+    .manu-btn:hover{
+        background: red;
+    }
+.nav-hamburger-manu{
+    color: white;
+    display: none;
+}
+.continure{
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    gap: 4%;
+    /* justify-content: space-around; */
+    /* padding:20px ; */
+}
+
+.hero-text{
+    width: 48%;
+    color: white;
+    border: 1px solid green;
+    align-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    text-align: start;
+}
+span{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+.hero-text>p{
+    margin: 20px;
+}
+.hero-btn-1{
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.hero-btn-2{
+    padding: 20px;
+    border-radius: 10px; 
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.hero-image{
+    border: 1px solid green;
+}
+.hero-img-btn{
+    background: #000;
+    color: white;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+
+.imge{
+    
+    width: 48%;
+    border: 1px solid green;
+    position: relative;
+    font-family: Arial;
+  }
+.text-block {
+    position: absolute;
+    top:90px;
+    right: 90px;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+    border: 1px solid #FFFFFF1A;    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .text-block-2{
+    bottom:80px;
+    left: 20px;
+    position: absolute;
+    display: flex;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+    border: 1px solid #FFFFFF1A;    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.cecle{
+
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+h1,h3,p{
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 50px;
+}
+
+/* nav end here  */
+/* main continure here  */
+.main-continure{
+    background-color: #000;
+    
+}
+.main-continure-text{
+    max-width: 1200px;
+    margin: 0 auto;
+   text-align: center;
+    border: 1px solid red;
+}
+.continure-4img{
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.hero-image-1 img{
+   width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 5px solid #302f2f;
+    border-radius: 50%;
+
+}
+.test{
+    text-align: center;
+}
+h4{
+    color: white; 
+}
+.hero-run{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: #302f2f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-run-text{
+    width: 50%;
+    padding: 25px;
+}
+.hero-run-image{
+    width: 50%;
+    padding: 25px;
+    border: 1px solid green;
+    
+}
+.hero-run-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .aaa{
+    background-color: #302f2f;
+  }
+
+  
+/* main end here  */
+.table{
+    width: 50%;
+    height: 50%;
+}
+.BMI-form{
+    border: 1px solid red;
+}
+
+.form-inline input {
+  
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: grid;
+            grid-template-columns: repeat(2,1fr); 
+                grid-template-rows: repeat(2,100px) 20px 20px;
+           
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(2,100px) 20px 20px;
+    }
+
+.box-12{
+    grid-column: span 2;
+    
+}
+  .text-2{
+    grid-column: span 2;
+  }
+  .BMI-calculator{
+    display: flex;
+    
+  }
