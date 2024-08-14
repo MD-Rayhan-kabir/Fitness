@@ -81,7 +81,11 @@ span{
 .hero-text>p{
     margin: 20px;
 }
+.hero-btn{
+    display: flex;
+   }
 .hero-btn-1{
+    width: 50%;
     padding: 20px;
     margin-right: 10px;
     border-radius: 10px;
@@ -90,6 +94,7 @@ span{
     border: none;
 }
 .hero-btn-2{
+    width: 50%;
     padding: 20px;
     border-radius: 10px; 
     color: white;
@@ -223,20 +228,17 @@ table, th, td {
   .aaa{
     background-color: #302f2f;
   }
-
-  
-/* main end here  */
-.table{
+  .table{
     width: 50%;
     height: 50%;
+    margin: 10px;
 }
 .BMI-form{
     border: 1px solid red;
+    margin: 10px;
 }
 
-.form-inline input {
-  
-    margin: 5px 10px 5px 0;
+.form-inline input {  
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -262,3 +264,5 @@ table, th, td {
     display: flex;
     
   }
+  
+/* main end here  */

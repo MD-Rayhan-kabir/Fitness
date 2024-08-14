@@ -47,10 +47,18 @@
       }
 
 @media screen and (max-width:500px ) {
-   .navber-continure{
+  .navber-main{
+    padding: 10px;
+  }
+    .navber-continure{
     flex-direction: row;
    }
-   
+   .hero-btn-1,.hero-btn-2{
+    width: 50%;
+   }
+   .hero-btn{
+    display: flex;
+   }
     .nav-hamburger-manu{
         display:block;
     }
@@ -105,6 +113,28 @@
     flex-direction: column;
     align-items: center;
 
+}
+.hero-run{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.hero-run-text{
+    width: 100%;
+    
+}
+.hero-run-image{
+    width: 100%;
+}
+
+.BMI-calculator{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.table{
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 }
