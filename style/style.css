@@ -264,5 +264,31 @@ table, th, td {
     display: flex;
     
   }
-  
+
+.meet-tem-image{
+    background-color: #302f2f;
+    border-radius: 20px;
+    display: grid;
+            grid-template-columns: repeat(3,1fr); 
+                /* grid-template-rows: repeat(3,100px) 20px 20px; */
+                position: relative;
+
+            }
+
+.box1 img {
+    
+    max-width: 100%;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+
 /* main end here  */
+.footer-manu{
+   
+    background-color: #302f2f;
+}
+li{
+    color: white;
+    list-style: none;
+}
