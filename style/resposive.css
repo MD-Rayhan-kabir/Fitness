@@ -136,8 +136,19 @@
     width: 100%;
     margin-bottom: 10px;
 }
-.meet-tem-image{
-    
+.box1 {
+    flex-direction: column;
+    align-items: center;
+
 }
+.navber-continure{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-text,.footer-text1{
+    width: 100%;
+}
+
+
 
 }
