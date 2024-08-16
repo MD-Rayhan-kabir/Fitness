@@ -46,13 +46,15 @@
         padding-right: 20px;
       }
 
+}
 @media screen and (max-width:500px ) {
   .navber-main{
     padding: 10px;
   }
-    .navber-continure{
+  .navber-continure{
     flex-direction: row;
-   }
+    
+}
    .hero-btn-1,.hero-btn-2{
     width: 50%;
    }
@@ -124,13 +126,30 @@
     
 }
 .hero-run-image{
-    width: 100%;
+    width: 90%;
 }
 
 .BMI-calculator{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.teams-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.img-relative{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 .table{
     width: 100%;
@@ -141,14 +160,12 @@
     align-items: center;
 
 }
-.navber-continure{
-    flex-direction: column;
-    align-items: center;
-}
+
 .footer-text,.footer-text1{
     width: 100%;
 }
-
-
-
+.footer-manu{
+    flex-direction: row;
+    align-items: center;
+}
 }

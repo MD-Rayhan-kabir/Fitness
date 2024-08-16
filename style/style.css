@@ -11,13 +11,14 @@
 .navber-main{
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
  background-color: #111111c5;
+
 }
 .navber-continure{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* padding:20px ; */
+    padding:20px ;
     
 }
 h2{
@@ -25,22 +26,20 @@ h2{
     color: #E6533C;
    
     }
-    .navber-manu{
-        border: 1px solid rgba(0, 0, 0, 0.226);
-        border-radius: 50px;
-        margin-right: 5px;
-     
-    }
+  .navber-manu{
+    border: 1px solid rgb(30, 31, 30);
+    border-radius: 25px;
+  }
+
     .manu-btn{
-        /* width: 150px;
-        height: 50px; */
-        padding: 5px;
+        padding: 10px;
         margin: 5px;
         color: white;
         background-color: transparent;
         border-radius:20px;
         border: none;  
          font-size: large;
+       
         
     }
     .manu-btn:hover{
@@ -72,7 +71,7 @@ h1{
 span{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
+
     font-style: normal;
 }
 .hero-text>p{
@@ -89,6 +88,7 @@ span{
     background-color: red;
     color: white;
     border: none;
+    font-size: 20px;
 }
 .hero-btn-2{
     width: 50%;
@@ -97,6 +97,7 @@ span{
     color: white;
     background-color: transparent;
     border: 1px solid white;
+    font-size: 20px;
 }
 
 .hero-img-btn{
@@ -110,7 +111,6 @@ span{
 .imge{
     
     width: 48%;
-    
     position: relative;
     font-family: Arial;
   }
@@ -147,8 +147,12 @@ span{
     margin: 10px;
    
 }
+p{
+    font-size: 15px;
+}
 h1,h3,p{
     color: rgb(255, 255, 255);
+    
 }
 h3{
     font-size: 50px;
@@ -158,12 +162,14 @@ h3{
 /* main continure here  */
 .main-continure{
     background-color: #000;
+    padding-bottom: 20px;
     
 }
 .main-continure-text{
     max-width: 1200px;
     margin: 0 auto;
    text-align: center;
+  
   
 }
 .continure-4img{
@@ -259,30 +265,69 @@ table, th, td {
     
   }
 
-.meet-tem-image{
-    background-color: #302f2f;
-    border-radius: 20px;
+  .teams-1 {
     display: grid;
-            grid-template-columns: repeat(3,1fr); 
-                /* grid-template-rows: repeat(3,100px) 20px 20px; */
-                position: relative;
-
-            }
-
-.box1 img {
+    grid-template-columns: repeat(3, 2fr);
     
-    max-width: 100%;
-   
-    border-radius: 20px;
+}
+.videoadd{
+    width: 500px;
+    height: 100%;
 }
 
+.container-team {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+   
+}
+.team-container {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    
+}
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+}
+.teams img {
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.teams .image-title {
+    position: absolute;
+    margin-top: -55px;
+    line-height: 25px;
+    color: #fff;
+}
 
 /* main end here  */
 .footer-manu{
-   
+    margin-top: ;
     background-color: #302f2f;
 }
 li{
     color: white;
     list-style: none;
+}
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    
+}
+.bar {
+    margin: 30px;
+    border: 1px solid rgba(20, 19, 19, 0.555);
+}
+.p-color{
+    text-align: center;
 }
